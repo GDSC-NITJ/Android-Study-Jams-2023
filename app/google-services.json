@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "121954845513",
+    "project_id": "memeappgdscnitj",
+    "storage_bucket": "memeappgdscnitj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121954845513:android:f48d3d78b9d1851bcc1098",
+        "android_client_info": {
+          "package_name": "com.gdscnitj.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121954845513-m1mj6g2ep0kj7fsp50i7aa7bve78dph8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gdscnitj.myapplication",
+            "certificate_hash": "144fbab301384733907202965df1ed8e1782f2fc"
+          }
+        },
+        {
+          "client_id": "121954845513-7358uhcr6dlghldittkek11s1lqorekh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9Do0fUANtwfyW-PXsguNgEBxTukiGQmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121954845513-7358uhcr6dlghldittkek11s1lqorekh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
