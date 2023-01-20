@@ -7,13 +7,32 @@
     tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login Activity"
+        android:id="@+id/googleSigninbtn"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/btn_back_grey"
+        android:gravity="center"
+        android:text="Sign In with Google"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.383"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="34dp"
+        android:layout_height="31dp"
+        app:layout_constraintBottom_toBottomOf="@+id/googleSigninbtn"
+        app:layout_constraintEnd_toEndOf="@+id/googleSigninbtn"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="@+id/googleSigninbtn"
+        app:layout_constraintTop_toTopOf="@+id/googleSigninbtn"
+        app:srcCompat="@drawable/google_icon" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
